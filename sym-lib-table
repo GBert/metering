@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Metering-rescue)(type Legacy)(uri ${KIPRJMOD}/Metering-rescue.lib)(options "")(descr ""))
+)
