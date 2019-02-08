@@ -843,12 +843,12 @@ $Comp
 L Connector:Conn_01x05_Female J9
 U 1 1 5C682285
 P 8850 4100
-F 0 "J9" H 8877 4080 50  0000 L CNN
+F 0 "J9" H 8743 3767 50  0000 C CNN
 F 1 "Conn_01x05_Female" V 8877 4035 50  0001 L CNN
 F 2 "w_conn_mkds:mkds_1,5-5" H 8850 4100 50  0001 C CNN
 F 3 "~" H 8850 4100 50  0001 C CNN
 	1    8850 4100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	8650 3900 8350 3900
@@ -944,9 +944,9 @@ D2
 Text Label 4600 3200 0    50   ~ 0
 A0
 Text Label 4600 3300 0    50   ~ 0
-RSV
+RSV1
 Text Label 4600 3400 0    50   ~ 0
-RSV
+RSV2
 Text Label 4600 3500 0    50   ~ 0
 SD3
 Text Label 4600 3600 0    50   ~ 0
@@ -1040,9 +1040,13 @@ SD2
 Text Label 4200 3500 2    50   ~ 0
 SD3
 Text Label 4200 3400 2    50   ~ 0
-RSV
+RSV2
 Text Label 4200 3300 2    50   ~ 0
-RSV
+RSV1
 Text Label 4200 3200 2    50   ~ 0
 A0
+Text Label 3850 5525 0    50   ~ 0
+VIN
+Text Label 4475 5525 0    50   ~ 0
+3V3
 $EndSCHEMATC

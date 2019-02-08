@@ -9,7 +9,7 @@ cp ${BOARD}-F.Mask.gts    ${BOARD}.GTS
 cp ${BOARD}-B.Mask.gbs    ${BOARD}.GBS
 cp ${BOARD}-F.SilkS.gto   ${BOARD}.GTO
 cp ${BOARD}-B.SilkS.gbo   ${BOARD}.GBO
-cp ${BOARD}.drl           ${BOARD}-PTH.TXT
+cp ${BOARD}-PTH.drl           ${BOARD}-PTH.TXT
 cp ${BOARD}-Edge.Cuts.gm1 ${BOARD}.GML
 
 if [ -f ${BOARD}-NPTH.drl ]; then
