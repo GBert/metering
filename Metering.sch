@@ -125,7 +125,6 @@ Wire Wire Line
 Connection ~ 6300 3300
 Wire Wire Line
 	6300 3300 6400 3300
-Connection ~ 6875 3150
 Wire Wire Line
 	6300 3700 6400 3700
 Wire Wire Line
@@ -919,12 +918,7 @@ D3
 Text Label 6300 3600 0    50   ~ 0
 D4
 Wire Wire Line
-	6300 3400 6400 3400
-Wire Wire Line
-	6300 3200 6300 3150
-Wire Wire Line
-	6300 3150 6875 3150
-Connection ~ 6300 3200
+	6300 3400 6350 3400
 Wire Wire Line
 	6300 3250 6750 3250
 Text Label 6300 3400 0    50   ~ 0
@@ -1091,4 +1085,16 @@ F 3 "" H 7450 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 3650 7450 3700
+Wire Wire Line
+	6875 3150 6700 3150
+Connection ~ 6875 3150
+Wire Wire Line
+	6700 3150 6700 3375
+Wire Wire Line
+	6700 3375 6350 3375
+Wire Wire Line
+	6350 3375 6350 3400
+Connection ~ 6350 3400
+Wire Wire Line
+	6350 3400 6400 3400
 $EndSCHEMATC
