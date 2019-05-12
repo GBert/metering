@@ -1,4 +1,4 @@
-update=Donnerstag, 14. März 2019 'u33' 08:33:26
+update=Mo 13 Mai 2019 01:47:25 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,3 +29,13 @@ LibDir=
 [eeschema/libraries]
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
